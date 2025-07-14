@@ -1,5 +1,5 @@
 <?php
- include('V1/inc/connexion.php');
+ include('inc/connexion.php');
  ?>
 <!DOCTYPE html>
 <html lang="fr">

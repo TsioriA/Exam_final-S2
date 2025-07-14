@@ -1,4 +1,7 @@
 <?php 
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 include('../inc/connexion.php'); 
 ?>
 <!DOCTYPE html>
@@ -7,8 +10,8 @@ include('../inc/connexion.php');
     <meta charset="UTF-8">
     <title>Accueil</title>
     <link rel="stylesheet" href="../assets/css/style.css">
-     <link href="../assets\bootstrap-5.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="../assets\bootstrap-5.3.5-dist/js/bootstrap.bundle.min.js"></script>
+     <link href="../assets/bootstrap-5.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../assets/bootstrap-5.3.5-dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <?php include('../inc/menu.php'); ?>

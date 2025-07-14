@@ -20,13 +20,17 @@ différentes catégorie:
 
 étape a faire pour la création du site :
 tout se trouvera dans un dossier EXAM_FINAL-S2 et dedans il y aura un sous dossier V1 pour: 
-index.php (pour la page d'acceuil) en dehors inclura fonctions.php pour la connexion a la base 
+index.php (pour la page d'acceuil) en dehors inclura fonctions.php pour la connexion a la base
+login.php pour la connexion aux pages 
 dans inc :
--fonction pour la connexion a la base 
--deconnexion
--menu
+-fonction pour la connexion a la base dans connexion.php (ok)
+-deconnexion (ok)
+-menu (ok)
 dans pages :
--tout les pages necessaire pour la version 1
+-accueil.php
+-emprunts.php
+-membres.php (ok)
+-objets.php
 dans assets:
 css:style.css
 bootstrap
@@ -34,3 +38,7 @@ images
 sql
 dans traitements:
 tout les traitements de pages si necessaire 
+
+
+
+
