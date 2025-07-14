@@ -1,0 +1,36 @@
+Sujet version 1:
+Vous allez développez un site web qui permet à ses membres d’emprunter des objets de
+différentes catégorie
+Créer la base de données:
+● membre (id_membre, nom , date de naissance, genre, émail, ville, mdp,
+image_profil)
+● categorie_objet (id_categorie, nom_categorie )
+● objet (id_objet , nom_objet , id_categorie, id_membre)
+● images_objet(id_image, id_objet, nom_image)
+● emprunt(id_emprunt, id_objet, id_membre, date_emprunt, date_retour)
+Insérer les données de test
+● 4 membres
+● 4 catégories ( esthétique, bricolage, mécanique , cuisine )
+● 10 objets par membre à répartir sur les catégories
+● 10 emprunts
+
+
+Développez un site web qui permet à ses membres d’emprunter des objets de
+différentes catégorie:
+
+étape a faire pour la création du site :
+tout se trouvera dans un dossier EXAM_FINAL-S2 et dedans il y aura un sous dossier V1 pour: 
+index.php (pour la page d'acceuil) en dehors inclura fonctions.php pour la connexion a la base 
+dans inc :
+-fonction pour la connexion a la base 
+-deconnexion
+-menu
+dans pages :
+-tout les pages necessaire pour la version 1
+dans assets:
+css:style.css
+bootstrap
+images
+sql
+dans traitements:
+tout les traitements de pages si necessaire 
